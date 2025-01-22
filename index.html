@@ -3,9 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>4 Fundamentals of Programming</title>
 </head>
 <body>
+  <header>
+    <div class="header-container">
+      <h1 class="logo">4 Fundamentals of Programming</h1>
+      <nav class="nav-links">
+      <a class="active" href="./index.html">Home</a>
+      <a href="/pages/page1/index.html">About</a>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section>
+      <h1> 1. Variable Declaration</h1>
+      <p>Declaring a variable is the process of making a memory placeholder for data storage.
+        you can assign and modify values while the program is running by 
+        declaring variables in programming using particular keywords like var, let, and const in JavaScript.
+      </p>
+    </section>
+
+    <section>
+      <h1> 2. Input and output</h1>
+      <h3>Enter your Details</h3>
+      <label for="username">Enter your name: </label>
+      <input type="text" id="username" placeholder="Your Name">
+      <button id="greet-btn">Greet Me</button>
+      <p id="output"></p>
+    </section>
   
+    <section>
+      <h1> 3. Conditional Statements</h1>
+      <h3>Conditional Statement Example</h3>
+      <p>Guess a number between 1 and 10: </p>
+      <input type="number" id="guess" min="1" max="10">
+      <button id="check-btn">Check</button>
+      <p id="result"></p>
+    </section>
+
+    <section>
+      <h1> 4. Looping Statements</h1>
+      <h3>Looping Statement Example</h3>
+      <p>See a Countdown: </p>
+      <button id="countdown-btn">Start Countdown</button>
+      <ul id="countdown"></ul>
+    </section>
+  </main>
+
+  <script src="./assets/js/script.js"></script>
 </body>
 </html>
